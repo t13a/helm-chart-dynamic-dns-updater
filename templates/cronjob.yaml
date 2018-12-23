@@ -40,6 +40,8 @@ spec:
                 value: {{ .Values.updater.subDomain | quote }}
               - name: CPANEL_URL
                 value: {{ .Values.updater.cpanelUrl | quote }}
+              - name: DISABLE_CROND
+                value: "yes"
               resources:
 {{ toYaml .Values.resources | indent 16 }}
           {{- with .Values.nodeSelector }}

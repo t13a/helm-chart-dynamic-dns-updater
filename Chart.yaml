@@ -2,4 +2,4 @@ apiVersion: v1
 appVersion: "master"
 description: A dynamic DNS Updater with cPanel API 2
 name: dynamic-dns-updater
-version: 0.1.0
+version: 0.1.1
